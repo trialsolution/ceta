@@ -30,7 +30,7 @@ trade_data$hs6 <- factor(trade_data$hs6)
 trade_data$flow <- factor(trade_data$flow)
 trade_data$variable <- factor(trade_data$variable)
 
-write_param_togdx(trade_data, file = "gdx/ceta_data.gdx", symname = "p_CETA_tradeMatrix", ts = "CETA trade matrix with dims partner, reporter, hs6, flow, variable, value")
+write_param_togdx(trade_data, file = "gdx/ceta_data.gdx", symname = "p_CETA_tradeMatrix", ts = "CETA trade matrix with dims reporter, partner, hs6, flow, variable, value")
 
 
 # hs6 list
